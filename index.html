@@ -16,12 +16,12 @@
          <h1> Hello H1 </h1> 
     </div>
     
-    <script crossorigin 
+    <!-- <script crossorigin 
     src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin 
-    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
      <!-- // react file should be placed before app.js  -->
-    <script src="./app.js"></script>
+    <script type="module" src="./app.js"></script>
 
 </body>
 </html>
@@ -30,8 +30,42 @@
 // means when we needs to hide or show elements or other Dom Manupulation Task.
 // like putting some nodes inside the dom. removing some nodes from the dom. -->
 
+<!-- 
+Steps to create react app from scratch
+-> create html file
+-> create a js file
+-> link tha js file to html
+-> add a div and give it some id like root
+-> add react cdn or install it by npm later. after configure npm in the project.
+-> createElement on Js File 
+-> create root and pass id root of html page div here
+-> const mainDiv = ReactDOM.createRoot(document.getElementById("root"))
+-> render or root.render(mainDiv);
+-> configure git -> git init -> crate README.md file
+-> initial commit code
+-> connect to github repo
+-> push the code to github
+-> configute npm -> npm init
+-> a package.json will be added to project folder
+-> now we can install packages or we can add dependencies in our project
+-> first we install bundler 
+   why becoz our whole code including (html, css, js) needs to be bundled together 
+   or minify or cache or our whole code needs to be clean before send to production
+   like webpeck, parcel
+-> we are using parcel as dev dependency
+there are two types of dependencies one dev dependency and another is normal.
+dev dependencies used in development and normal dependencies used in production
+becoz we do bundling chunking or minifying in our machine not in server.
+so we install it as --dev-save dev dependency npm install parcelk --dev-save
+-> now we can add or install react and reactDOM from npm -->
 
--> create element then 
--> create root 
--> then 
--> render or root.render(document.getElementById(""));
+
+<!-- meaning of  "parcel": "^2.12.0" ^ carrot in front of dependency is
+ it will automatically upgrade the package version if there is a minor upgrade -->
+ <!-- meaning of  "parcel": "~2.12.0" ~ til operator in front of dependency is
+ it will automatically upgrade the package version if there is a major upgrade -->
+
+<!-- -> npm is used to install a package.
+-> npx is using to execute a pacakage. -->
+
+

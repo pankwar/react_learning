@@ -1,0 +1,32 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React Course By Me",
+ 
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankwar/react_learning.git"
+  },
+  "keywords": [],
+  "author": "Pankaj Pawar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankwar/react_learning/issues"
+  },
+  "homepage": "https://github.com/pankwar/react_learning#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  
+  "browserslist":[
+    "last 2 versions"
+  ]
+}

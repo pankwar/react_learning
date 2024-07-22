@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from 'react-dom/client'
 // the blank object is use to give attributes to tags.
 const heading = React.createElement("h1",{id:"heading"},"hello react!");
 
