@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>React</title>
+</head>
+<body>
+
+    <div id="root">
+        <!-- // if some content is here suppose  -->
+        <!-- a tag or any thing will be replaced by what we render in this root-->
+         <!-- and it is very fast. it is not easy to see in browser
+          to check we can use setTimeout in root.render()  -->
+         <h1> Hello H1 </h1> 
+    </div>
+    
+    <script crossorigin 
+    src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin 
+    src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+     <!-- // react file should be placed before app.js  -->
+    <script src="./app.js"></script>
+
+</body>
+</html>
+
+<!-- // the most costly or important thing in web page is Dom manupulation
+// means when we needs to hide or show elements or other Dom Manupulation Task.
+// like putting some nodes inside the dom. removing some nodes from the dom. -->
+
+
+-> create element then 
+-> create root 
+-> then 
+-> render or root.render(document.getElementById(""));
